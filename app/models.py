@@ -11,4 +11,4 @@ class UserSchema(Base):
     password = Column(String(100), nullable=False)
 
 
-Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind = engine)
